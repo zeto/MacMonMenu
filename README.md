@@ -36,3 +36,7 @@ xcodebuild -project MacMonMenu.xcodeproj -scheme MacMonMenu -destination 'platfo
 The built app is written to Xcode’s DerivedData folder. Copy `MacMonMenu.app` to `/Applications` if you want it available as a normal application.
 
 The project depends on [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm), which Xcode fetches with Swift Package Manager.
+
+## License
+
+MacMonMenu is released under the [MIT License](LICENSE). SwiftTerm and macmon keep their own licenses.
